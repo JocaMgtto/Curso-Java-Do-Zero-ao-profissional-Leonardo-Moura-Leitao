@@ -18,7 +18,6 @@ public class Consumidor {
 		Produto p5 = new Produto("cadeira", 35.0, 0.50);
 		
 		List<Produto> produtos = Arrays.asList(p1, p2, p3, p4, p5);
-
 		produtos.forEach((p) -> {System.out.println(p.nome + ", Preco: " + p.preco);});
 		System.out.println("\n");
 		produtos.forEach(System.out::println);
